@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <img src="../img/logo.svg" alt="Logo web.aria" />
+  <ul>
+      <li> <a href="../pages/about.html">about</a></li>
+      <li> <a href="../pages/gallery.html">galery</a> </li>
+      <li> <a href="../pages/contact.html">contact</a> </li>
+      <li> <a href="../index.html">main</a> </li>
+  </ul>
+ <h2>Контакты</h2>
+ <h3>Форма обратной связи</h3>
+ <p>Мы свяжемся с вами обязательно, поможем расскажем покажем</p>
+ <!-- Добавить календарь: "Когда с вами удобно связаться" -->
+ <form class="obratnuj-zvonok" autocomplete="off" action='email.php' method='post'>
+    <div class="form-zvonok"> 
+      <div>
+        <label>Имя <span>*</span></label>
+        <input type='text' name='username' required></div>
+      <div>
+        <label>Номер телефона (с кодом) <span>*</span></label>
+        <input type='text' name='usernumber' required></div>
+      <div>
+        <label>Сообщение</label>
+        <input type='text' name='question'>
+      </div>
+      <input class="bot-send-mail" type='submit' value='Послать заявку'>
+    </div>
+    </form>
+
+    <h3>Социальные сети:</h3>
+   <ul>
+    <li><a href="https://www.facebook.com/lefonite/" target="_blank">facebook</a></li>
+    <li><a href="https://www.instagram.com/lefonite/" target="_blank">instagram</a></li>
+    <li><a href="https://www.behance.net/lefonite" target="_blank"> behance</a></li>
+   </ul>
+
+   <h3>Мы находимся:</h3>
+   <p>приходите пить кофе чай, обсуждать дела</p>
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d175899.85463277478!2d30.571705701652643!3d46.45988648997331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c6318a0b864c43%3A0x129f8fe28cf2176c!2z0J7QtNC10YHRgdCwLCDQntC00LXRgdGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCDQo9C60YDQsNC40L3QsCwgNjUwMDA!5e0!3m2!1sru!2snl!4v1674948429568!5m2!1sru!2snl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</body>
+</html>
